@@ -1,4 +1,4 @@
-# EmployeesSystem
+# Exercise_Polymorphism_EmployeesSystem
 <p>Simples sistema de cadastro de funcionários para prática do conceito de polimorfismo em OO.</p>
 <p>Neste projeto, é criada são criadas duas classes Employee e OutsourcedEmployee, a primeira contendo os atributos Name, Hours e ValuePerHour, e a segunda, que é uma subclasse de Employee, contém um atributo adicional AdditionalCharge.</p>
 <p>Por herança, ambas as classes implementam um método Payment, que retorna um double, sendo o produto entre Hours e ValuePerHour, mas, no entanto, para a classe OutsourcedEmployee, ela deve ser implementada de forma diferente, com o adicional de 110% do AdditionalCharge, necessitanto o método ser sobreposto.</p>
